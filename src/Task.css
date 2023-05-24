@@ -1,0 +1,36 @@
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+
+input[type=checkbox] {
+    accent-color: #BFCFCC;
+    height: 20px;
+    width: 20px;
+}
+
+.pending-task {
+    text-decoration: none;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: black;
+    
+}
+
+.completed-task:hover {
+    text-decoration: line-through;
+    color: black;
+    cursor: auto;
+
+}
+
+h4:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
